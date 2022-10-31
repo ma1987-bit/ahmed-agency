@@ -6,7 +6,7 @@ const ArtistsPage = ({data: {allWpArtist: {edges}}}) => {
   return (
     <Layout pageTitle="Artists of Ahmed Agency">
       {edges.map((item) => {
-        const artist = item.node.artistMeta;
+        const artist = item.node.artistFields;
         const slug = item.node.slug;
         return <Link to={`/artists/${slug}`}>
           <p key={item.node.id}>{artist.firstName} {artist.lastName}</p>
