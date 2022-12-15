@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
               About
             </Link></li>
             <li className={navLinkItem}>
-            <Link className={navLinkText} to="/artist">
+            <Link className={navLinkText} to="/artists">
               Artists
             </Link></li>
         </ul>
