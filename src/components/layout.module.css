@@ -32,22 +32,22 @@ html {
     position: relative;
     display: flex;
     align-items: center;
-    height: 90px;
     flex-shrink: 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 600;
+    color: white;
     margin-right: auto;
   }
   
   .site-title::after {
-    content:'.';
-    position: relative;
-    right: -5px;
+    content: ".";
+    position: absolute;
+    right: -10px;
     bottom: 35px;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: serif;
-    color: #37BA83;
+    color: #37ba83;
     margin-right: auto;
   }
   
